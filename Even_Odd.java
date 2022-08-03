@@ -42,6 +42,8 @@ public class Even_Odd  extends Thread{
 		public static void main(String[] args) // main method
 		{
 			Even_Odd ob = new Even_Odd();
+			Even_Odd ob1 = new Even_Odd();
 			ob.start(); // run method calling
+			ob1.start(); // run method calling
 		}
 }

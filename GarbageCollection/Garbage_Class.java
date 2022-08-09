@@ -12,12 +12,12 @@ class Demo
 	
 }
 
-public class Garbage_Collection {
+public class Garbage_Class {
 	static Scanner sc = new Scanner(System.in);
 	
 	public static void main(String[] args)
 	{
-		Garbage_Collection ob = new Garbage_Collection();
+		Garbage_Class ob = new Garbage_Class();
 		ob = null;
 		System.gc();
 		fun();
